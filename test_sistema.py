@@ -59,7 +59,7 @@ def menu():
                 print(f"Retiro de ${monto:,.0f} exitoso.")
             except ValueError as e:
                 print(f"Error: {e}")
-        
+
         elif op == "4":
             origen = input("De (1, 2 o 3): ").strip()
             destino = input("A (1, 2 o 3): ").strip()
@@ -67,9 +67,7 @@ def menu():
                 print("Cuenta no válida.")
                 continue
             try:
-                monto = float(input(f"¿Cuánto transferir de {cuentas[origen].numero_cuenta} a {cuentas[destino].numero_cuenta}? $"))
                 cuentas[origen] + cuentas[destino]
-                print(f"Transferencia de ${monto:,.0f} exitosa.")
             except Exception as e:
                 print(f"Error: {e}")
         

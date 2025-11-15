@@ -18,3 +18,21 @@
 2025-11-14 20:25:24 - INFO - Cuenta 003 (Carlos Ruiz) - Depósito: +$5 → Saldo: $5,450,005
 2025-11-14 20:25:24 - INFO - Transferencia: $5 de 001 → 003
 2025-11-14 20:27:39 - INFO - Cuenta 003 (Carlos Ruiz) - Depósito: +$10,000 → Saldo: $5,460,000
+2025-11-14 20:46:44 - INFO - Cuenta 003 (Carlos Ruiz) - Depósito: +$5,000 → Saldo: $5,455,000
+2025-11-14 20:47:40 - INFO - Cuenta 003 (Carlos Ruiz) - Retiro: -$15,000 → Saldo: $5,440,000
+2025-11-14 20:48:04 - INFO - Cuenta 003 (Carlos Ruiz) - Retiro: -$1 → Saldo: $5,439,999
+2025-11-14 20:48:04 - INFO - Cuenta 002 (Luis Pérez) - Depósito: +$1 → Saldo: $-49,999
+2025-11-14 20:48:04 - INFO - Transferencia: $1 de 003 → 002
+2025-11-14 20:51:04 - INFO - Cuenta 003 (Carlos Ruiz) - Retiro: -$55,000 → Saldo: $5,395,000
+2025-11-14 20:51:04 - INFO - Cuenta 002 (Luis Pérez) - Depósito: +$55,000 → Saldo: $5,000
+2025-11-14 20:51:04 - INFO - Transferencia: $55,000 de 003 → 002
+2025-11-14 20:51:18 - INFO - Cuenta 001 (Ana Gómez) - Interés ganado: +$1,700 → Saldo: $1,021,700
+2025-11-14 20:51:18 - INFO - Cuenta 002 (Luis Pérez) - Comisión mantenimiento: -$8,000 → Saldo: $-3,000
+2025-11-14 20:51:18 - INFO - Cuenta 003 (Carlos Ruiz) - Rendimiento inversión: +$38,215 → Saldo: $5,433,215
+2025-11-14 20:53:00 - INFO - Cuenta 003 (Carlos Ruiz) - Retiro: -$52,000 → Saldo: $5,398,000
+2025-11-14 20:53:00 - INFO - Cuenta 002 (Luis Pérez) - Depósito: +$52,000 → Saldo: $2,000
+2025-11-14 20:53:00 - INFO - Transferencia: $52,000 de 003 → 002
+2025-11-14 20:53:04 - INFO - Cuenta 001 (Ana Gómez) - Interés ganado: +$1,700 → Saldo: $1,021,700
+2025-11-14 20:53:04 - INFO - Cuenta 002 (Luis Pérez) - Comisión mantenimiento: -$8,000 → Saldo: $-6,000
+2025-11-14 20:53:04 - INFO - Cuenta 003 (Carlos Ruiz) - Rendimiento inversión: +$38,236 → Saldo: $5,436,236
+2025-11-14 20:53:28 - INFO - Cuenta 003 (Carlos Ruiz) - Retiro: -$15,000 → Saldo: $5,421,236

@@ -72,6 +72,7 @@ class CuentaBancaria(ABC):
             self.retirar(monto)
             other.depositar(monto)
             logging.info(f"Transferencia: ${monto:,.0f} de {self._numero_cuenta} → {other._numero_cuenta}")
+            print(f"Transferencia de ${monto:,.0f} exitosa.")
         except ValueError as e:
             print(f"Error: {e}")
         return self
@@ -163,12 +164,3 @@ def procesar_cuentas(cuentas: List[CuentaBancaria]):
         cuenta.calcular_interes()
         print("  →", cuenta)
     print("="*60 + "\n")
-
-    print("Estado inicial:")
-    for c in [c1, c2, c3]:
-        print(c)
-
-    c1.depositar(20000)
-    c2.retirar(100000)
-    c1 + c3
-    procesar_cuentas([c1, c2, c3])
